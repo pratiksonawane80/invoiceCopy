@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0px 40px;
+}
+
+.custName {
+  /* display: flex; */
+  /* flex-direction: column; */
+  color: blueviolet;
+}
+
+.submitted h4 {
+  color: grey;
+}
+
+#billDetail th {
+  color: blue;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#billDetail {
+  margin-top: 5%;
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#billDetail td,
+#customers th {
+  padding: 8px;
+}
+
+.horizontalLine {
+  border: 8px solid blue;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+#billDetail tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.invoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 50px;
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 48px;
+  color: darkblue;
+}
+
+.invoiceDetail {
+  display: flex;
+}
+
+.addressBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.6;
+  margin-top: 3rem;
+}
+
+.address {
+  margin-right: 15%;
+  justify-content: left;
+}
+
+.submitted {
+  display: flex;
+  align-items: flex-start;
+  align-items: flex-end;
+}
+
+.invoiceBlock {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-between;
+  line-height: 1.6;
+}
+
+.invoiceAddr {
+  display: flex;
+  margin-right: 15%;
+}
+
+.serviceAddr {
+  background-color: #f2f2f2;
+}
+
+
+.notes {
+  color: grey;
+}
+
+.subtotal {
+  color: darkblue;
+}
+
+#finalTotal {
+  display: flex;
+  justify-content: end;
+  color: grey;
+  font-size: 20px;
+  margin-top: 3rem;
+}
